@@ -13,23 +13,23 @@
   }
   
 .default {
-    background-color: $login;
+    @include button($login);
   }
   
 .error {
-    background-color: $error;
+    @include button($error);
   }
   
 .info {
-    background-color: $info;
+     @include button($info);
   }
   
 .success {
-    background-color: $success;
+    @include button($success);
   }
   
 .warning {
-    background-color: $warning;
+    @include button($warning);
   }
 
 
