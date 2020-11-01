@@ -1,9 +1,0 @@
-@mixin button($clr) {
-
-    background-color: $clr;
-
-    &:hover {
-        
-        background-color: lighten( $clr, 25%);
-    }
-}
